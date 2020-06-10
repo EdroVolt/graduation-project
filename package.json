@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/EdroVolt/graduation-project/issues"
   },
-  "homepage": "https://github.com/EdroVolt/graduation-project#readme"
+  "homepage": "https://github.com/EdroVolt/graduation-project#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
 }
