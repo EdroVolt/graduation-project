@@ -21,7 +21,7 @@ div {
 
 .my-container {
   display: grid;
-  grid-template-columns: 20vw auto;
+  grid-template-columns: 15vw auto;
   /* grid-gap: 30px; */
   height: 100vh;
   background: white;
@@ -30,7 +30,7 @@ div {
 
 .side-bar {
   position: fixed;
-  width: 20vw;
+  width: 15vw;
   /* width: 385px; */
   /* width: ; */
   background-color: #393e46;
@@ -74,8 +74,7 @@ div.side-bar-content div {
   color: #eeeeee;
 }
 
-.doctor {
-}
+.doctor {}
 
 div.side-bar-content h2 {
   margin: 0;
@@ -91,8 +90,20 @@ div.my-container div.main {
   border: none;
 }
 
-.my-navbar {
-  border-left: none;
+.my-navbar {}
+
+.my-navbar nav {
+  background: #1b6ca8;
+  height: 70px;
+}
+
+.navbar-brand i {
+  font-size: 2em;
+}
+
+nav div {
+  background: none;
+  font-size: 1.5em;
 }
 
 .my-content {
