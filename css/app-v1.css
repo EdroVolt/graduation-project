@@ -106,7 +106,7 @@ nav div {
     font-size: 1.5em;
 }
 
-.my-content {
+/* .my-content {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 100px 200px 400px;
@@ -115,7 +115,7 @@ nav div {
     padding-top: 0;
     background: white;
     border: none;
-}
+} */
 
 .div3 {
     display: grid;
