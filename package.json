@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/EdroVolt/graduation-project#readme",
   "dependencies": {
+    "animate.css": "^4.1.0",
     "bootstrap": "^4.5.0"
   }
 }

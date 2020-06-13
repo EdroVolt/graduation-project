@@ -86,7 +86,8 @@ div.side-bar-content div {
   color: #eeeeee;
 }
 
-.doctor {}
+.doctor {
+}
 
 div.side-bar-content h2 {
   margin: 0;
@@ -102,7 +103,8 @@ div.my-container div.main {
   border: none;
 }
 
-.my-navbar {}
+.my-navbar {
+}
 
 .my-navbar nav {
   background: #1b6ca8;
@@ -133,7 +135,6 @@ nav div {
   padding: 30px;
   padding-top: 0;
   /* background: white; */
-
 }
 
 .div3 {
