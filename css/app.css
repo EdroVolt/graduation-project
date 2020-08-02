@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb {
 
 .side-bar {
   position: fixed;
+  /* border-top-right-radius: 100px; */
   width: 15vw;
   /* width: 385px; */
   /* width: ; */
@@ -55,17 +56,19 @@ i {
 
 .my-header {
   display: flex;
+  border-radius: 0 100px;
   justify-content: center;
   align-items: center;
   /* padding-left: 10%; */
   height: 70px;
   background-color: #222831;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .my-header-name {
   /* margin-left: 10%; */
   color: #eeeeee;
+  font-size: 1.5vw;
 }
 
 .side-bar-content {
@@ -104,6 +107,7 @@ div.my-container div.main {
 }
 
 .my-navbar {
+  z-index: 1;
 }
 
 .my-navbar nav {
@@ -159,4 +163,50 @@ nav div {
 
 table {
   font-size: 1.5em;
+}
+
+@media (max-width: 1000px) {
+  .my-container {
+    grid-template-columns: 1fr;
+  }
+
+  .side-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 65px;
+    z-index: 5;
+  }
+
+  .my-header {
+    display: none;
+  }
+
+  .side-bar-content {
+    flex-direction: row;
+    height: 100%;
+    padding: 10px;
+  }
+
+  div.side-bar-content h2 {
+    display: none;
+  }
+
+  div.side-bar-content div {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  i {
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
 }
